@@ -107,7 +107,7 @@ namespace AIChat_Project
                 top_k = 50,
                 top_p = 0.9,
                 min_p = 0.05,
-                stop = new[] { "user:", "\n\n" }
+                stop = new[] { "user", "\n\n" }
             };
 
             var jsonContent = JsonConvert.SerializeObject(contentJson);
